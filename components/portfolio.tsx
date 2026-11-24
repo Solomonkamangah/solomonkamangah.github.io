@@ -103,7 +103,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 border-b border-line/70 bg-ink/90 backdrop-blur-xl">
         <div className="container-wide flex h-[76px] items-center justify-between">
           <a href="#home" className="flex items-center gap-3" onClick={closeMenu}>
-            <Image src="/solomon-kamanga.png" alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-xl border border-accent/40 object-cover object-top" />
+            <Image src="/solomon-kamanga.jpg" alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-xl border border-accent/40 object-cover object-top" />
             <span className="font-semibold tracking-wide">Solomon Kamanga<span className="text-accent">.</span></span>
           </a>
           <nav className="hidden items-center gap-8 text-sm text-muted md:flex">
@@ -138,7 +138,7 @@ export default function Portfolio() {
             <div className="absolute inset-8 rounded-full bg-accent/20 blur-3xl"/>
             <div className="glass relative rounded-3xl p-6 shadow-glow">
               <div className="mb-6 flex items-center justify-between"><span className="eyebrow">Professional profile</span><span className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-[10px] text-emerald-300">PORTFOLIO</span></div>
-              <Image src="/solomon-kamanga.png" alt="Portrait of Solomon Kamanga" width={96} height={96} className="h-24 w-24 rounded-2xl border border-accent/40 object-cover object-top" />
+              <Image src="/solomon-kamanga.jpg" alt="Portrait of Solomon Kamanga" width={96} height={96} className="h-24 w-24 rounded-2xl border border-accent/40 object-cover object-top" />
               <h3 className="mt-5 text-2xl font-bold">Solomon Kamanga</h3>
               <p className="mt-1 text-sm text-muted">ICT &amp; Management Information Systems</p>
               <div className="my-6 h-px bg-line"/>
