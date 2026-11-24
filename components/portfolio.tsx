@@ -116,7 +116,7 @@ export default function Portfolio() {
 
       <section id="home" className="grid-bg relative overflow-hidden border-b border-line/60">
         <div className="pointer-events-none absolute -right-24 top-0 h-[480px] w-[480px] rounded-full bg-accent/10 blur-[110px]"/>
-        <div className="container-wide relative grid min-h-[650px] items-center gap-12 py-24 lg:grid-cols-[1.3fr_.7fr]">
+        <div className="container-wide relative grid items-start gap-12 pb-16 pt-4 lg:grid-cols-[1.3fr_.7fr]">
           <div>
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-2 text-xs font-semibold tracking-wide text-sky-200"><span className="h-2 w-2 rounded-full bg-emerald-400"/> ICT • BUSINESS SYSTEMS • TECHNOLOGY</div>
             <p className="eyebrow mb-4">Hello, I&apos;m</p>
