@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import {
   ArrowDown, ArrowRight, ArrowUpRight, BriefcaseBusiness, Code2,
-  Database, Download, Github, Globe2, Linkedin, Mail, Menu, Monitor,
+  Database, Download, Globe2, Linkedin, Mail, Menu, Monitor,
   Server, ShieldCheck, X, GraduationCap, Layers3
 } from "lucide-react";
 
@@ -92,7 +92,6 @@ export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeProject, setActiveProject] = useState<number | null>(null);
   const email = "solomonzemuley@gmail.com";
-  const github = "https://github.com/Solomonkamangah";
   const linkedin = "https://www.linkedin.com/in/solomon-kamanga-380001346";
 
   const selectedProject = activeProject === null ? null : projects[activeProject];
@@ -221,7 +220,7 @@ export default function Portfolio() {
               <a href="tel:+265884414929" className="whitespace-nowrap hover:underline">+265 884 414 929</a>
               <a href="tel:+265997752553" className="whitespace-nowrap hover:underline">+265 997 752 553</a>
             </div>
-            <div className="mt-8 flex flex-wrap gap-5 text-sm text-muted"><a className="inline-flex items-center gap-2" href={github} target="_blank" rel="noreferrer"><Github size={17}/> GitHub</a><a className="inline-flex items-center gap-2" href={linkedin} target="_blank" rel="noreferrer"><Linkedin size={17}/> LinkedIn</a></div>
+            <div className="mt-8 flex flex-wrap gap-5 text-sm text-muted"><a className="inline-flex items-center gap-2" href={linkedin} target="_blank" rel="noreferrer"><Linkedin size={17}/> LinkedIn</a></div>
           </div>
         </div>
       </section>
