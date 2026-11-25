@@ -203,11 +203,47 @@ export default function Portfolio() {
 
       <section id="experience" className="section-space border-y border-line/60 bg-[#09182b]">
         <div className="container-wide">
-          <SectionHeading kicker="Career journey" title="Professional experience" description="A concise overview of my professional background. Update titles and dates to match your final CV exactly."/>
+          <SectionHeading kicker="Career journey" title="Professional experience" description="A concise overview of my ICT, systems and web development experience."/>
           <div className="relative ml-2 border-l border-line pl-8">
-            <div className="relative pb-10"><span className="absolute -left-[38px] top-1 h-3 w-3 rounded-full border-2 border-accent bg-ink"/><p className="text-xs font-semibold tracking-wider text-accent">CURRENT / RECENT</p><h3 className="mt-2 text-lg font-bold">Supervisor – ICT Support &amp; Business Systems</h3><p className="mt-1 text-sm text-muted">F&amp;N Business Consultants · Malawi</p><p className="mt-3 max-w-2xl text-sm leading-7 text-muted">ICT support and business systems responsibilities, including systems administration, infrastructure coordination, software project oversight and support for business technology operations.</p></div>
-            <div className="relative pb-10"><span className="absolute -left-[38px] top-1 h-3 w-3 rounded-full border-2 border-line bg-ink"/><p className="text-xs font-semibold tracking-wider text-muted">2021 – 2024</p><h3 className="mt-2 text-lg font-bold">Computer Systems Technician</h3><p className="mt-1 text-sm text-muted">MECHRO Ltd / Virtual Irrigation Academy</p><p className="mt-3 max-w-2xl text-sm leading-7 text-muted">Computer systems and ICT technical support experience. Add verified responsibilities and achievements from your CV.</p></div>
-            <div className="relative"><span className="absolute -left-[38px] top-1 h-3 w-3 rounded-full border-2 border-line bg-ink"/><p className="text-xs font-semibold tracking-wider text-muted">2019 – 2020</p><h3 className="mt-2 text-lg font-bold">Web Developer</h3><p className="mt-1 text-sm text-muted">ACCSOFT Ltd</p><p className="mt-3 max-w-2xl text-sm leading-7 text-muted">Web development experience. Add the languages, frameworks and deliverables you worked with.</p></div>
+            <div className="relative pb-10">
+              <span className="absolute -left-[38px] top-1 h-3 w-3 rounded-full border-2 border-accent bg-ink"/>
+              <p className="text-xs font-semibold tracking-wider text-accent">2025 – PRESENT</p>
+              <h3 className="mt-2 text-lg font-bold">ICT Support &amp; Systems Supervisor</h3>
+              <p className="mt-1 text-sm text-muted">F&amp;N Business Consultants Ltd</p>
+              <ul className="mt-4 max-w-3xl list-disc space-y-2 pl-5 text-sm leading-7 text-muted marker:text-accent">
+                <li>Provide first- and second-level support for business-critical applications and IT systems.</li>
+                <li>Install, configure and maintain computer systems, peripherals and software platforms.</li>
+                <li>Monitor system performance, availability and security to ensure high uptime.</li>
+                <li>Manage user accounts, access controls and permissions.</li>
+                <li>Troubleshoot application, database, network and operating system issues.</li>
+                <li>Assist in system upgrades, platform improvements and IT projects.</li>
+                <li>Develop and maintain standard operating procedures, technical documentation and support records.</li>
+                <li>Support business intelligence and KPI reporting.</li>
+                <li>Train end users on systems, applications and new technologies.</li>
+                <li>Supervise software engineers.</li>
+              </ul>
+            </div>
+            <div className="relative pb-10">
+              <span className="absolute -left-[38px] top-1 h-3 w-3 rounded-full border-2 border-line bg-ink"/>
+              <p className="text-xs font-semibold tracking-wider text-muted">2021 – 2025</p>
+              <h3 className="mt-2 text-lg font-bold">Computer Systems Technician</h3>
+              <p className="mt-1 text-sm text-muted">MECHRO Limited / Virtual Irrigation Academy (VIA)</p>
+              <ul className="mt-4 max-w-3xl list-disc space-y-2 pl-5 text-sm leading-7 text-muted marker:text-accent">
+                <li>Installed, audited and supported enterprise systems and applications.</li>
+                <li>Managed backend and frontend system accessibility and user data.</li>
+                <li>Supported ERP system development and Odoo-based configuration.</li>
+                <li>Performed database maintenance, backups and performance optimization.</li>
+                <li>Provided end-user training and technical support.</li>
+                <li>Conducted system documentation and support process improvements.</li>
+              </ul>
+            </div>
+            <div className="relative">
+              <span className="absolute -left-[38px] top-1 h-3 w-3 rounded-full border-2 border-line bg-ink"/>
+              <p className="text-xs font-semibold tracking-wider text-muted">2019 – 2020</p>
+              <h3 className="mt-2 text-lg font-bold">Web Developer</h3>
+              <p className="mt-1 text-sm text-muted">ACCSOFT</p>
+              <p className="mt-4 max-w-3xl text-sm leading-7 text-muted">Performed requirement definition, design, analysis, implementation and testing.</p>
+            </div>
           </div>
         </div>
       </section>
